@@ -1,0 +1,25 @@
+{
+  "name": "try-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "kafka-node": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuroKung/try-kafka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuroKung/try-kafka/issues"
+  },
+  "homepage": "https://github.com/GuroKung/try-kafka#readme"
+}
