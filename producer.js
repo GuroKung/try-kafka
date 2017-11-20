@@ -10,7 +10,7 @@ const kafka = require("kafka-node"),
 producer.on("ready", () => {
   producer.send(payloads, (err, data) => {
     if (err) console.error(err);
-    console.log(data);
+    console.log("Succesfully sent", data);
   });
 });
 
